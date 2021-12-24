@@ -817,6 +817,7 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 28px;
 }
 .data-form .form-item:not(:last-child) {
   margin-bottom: 10px;
@@ -891,13 +892,10 @@ img {
   clip: rect(0 0 0 0);
 }
 .checkbox-image {
-  margin-right: 8.22px;
-  fill: var(--basic-coller);
+  width: 16px;
+  height: 15px;
   border-radius: 2px;
-  background-size: contain;
-  transition-property: fill, background-color, background-image;
-  transition-duration: 250ms;
-  transition-timing-function: var(--time-function);
+  border: 2px solid var(--litle-text-color);
 }
 .checkbox:checked + .checkbox-image {
   fill: var(--hover-collor-text);
