@@ -904,6 +904,7 @@ img {
 .checkbox:checked + .checkbox-image {
   fill: var(--accent-color);
   background-color: var(--accent-color);
+  border: transparent;
 }
 .close-btn {
   display: flex;
