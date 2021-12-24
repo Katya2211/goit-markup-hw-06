@@ -900,6 +900,7 @@ img {
   height: 15px;
   border-radius: 2px;
   border: 2px solid var(--litle-text-color);
+  margin-right: 8px;
 }
 .checkbox:checked + .checkbox-image {
   fill: var(--accent-color);
