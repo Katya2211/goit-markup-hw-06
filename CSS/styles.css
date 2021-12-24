@@ -780,7 +780,7 @@ img {
   margin-bottom: 40px;
   justify-content: center;
 }
-form-button {
+.form-button {
   padding: 10px 55px;
   font-weight: 700;
   font-size: 16px;
@@ -876,7 +876,16 @@ form-button {
   border: 1px solid var(--accent-color);
   outline: none;
 }
-
+.input-form:focus + .form-icon,
+.input-form:hover + .form-icon {
+  fill: var(--hover-collor-text);
+}
+.form-icon {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  transition: fill 250ms var(--time-function);
+}
 .form-policy {
   margin-top: 20px;
 }
