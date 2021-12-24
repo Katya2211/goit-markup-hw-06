@@ -777,8 +777,8 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-color);
-  background: var(--hover-collor-text);
+  color: var(--litle-text-color);
+  background: var(--accent-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -866,7 +866,7 @@ img {
 }
 .input-form:focus + .form-icon,
 .input-form:hover + .form-icon {
-  fill: var(--hover-collor-text);
+  fill: var(--accent-color);
 }
 .form-icon {
   position: absolute;
@@ -878,6 +878,11 @@ img {
   margin-top: 20px;
 }
 .label-policy {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 30px;
+  display: block;
   align-items: center;
   justify-content: center;
 }
