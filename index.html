@@ -436,6 +436,7 @@
             </button>
             <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
             <form class="data-form">
+                <div class="form-item">
                 <label class="label-name" for="name"
                 >Имя
                 <input
@@ -445,6 +446,47 @@
                 id="name"
                 />
                 </label>
+                </div>
+                <div class="form-item">
+                <label class="label-name" for="tel">Телефон
+                    <input class="input-form" 
+                    type="tel" 
+                    name="user-tel" 
+                    id="tel" />
+                </label>
+                </div>
+                <div class="form-item">
+                <label class="label-name" for="email">Почта
+                    <input class="input-form" 
+                    type="email" 
+                    name="user-email" 
+                    id="email" />
+                </label>
+                </div>
+                <div class="form-item">
+                    <label class="label-name" for="comment">Комментарий
+                        <textarea
+                        class="form-comment"
+                        name="comment"
+                        id="comment"
+                        cols="30"
+                        rows="10"
+                        placeholder="Введите текст"></textarea>
+                    </label>
+                </div>
+                <div class="form-policy">
+                    <label class="label-policy" for="policy">
+                        <input class="checkbox" 
+                        type="checkbox" 
+                        name="policy" 
+                        id="policy" />
+                        <span>Соглашаюсь с рассылкой и принимаю<a class="policy-link" href="#"> Условия договора</a>
+                        </span>
+                        </label>
+                        </div>
+                        <div class="send__button">
+                            <button class="form-button" tape="submit">Отправить</button>
+                        </div>
             </form>
         </div>
     </div>
