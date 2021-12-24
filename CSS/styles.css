@@ -898,9 +898,8 @@ img {
   border: 2px solid var(--litle-text-color);
 }
 .checkbox:checked + .checkbox-image {
-  fill: var(--hover-collor-text);
-  background-image: url(..//images/iconcheck.svg);
-  background-color: var(--hover-collor-text);
+  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .close-btn {
   display: flex;
