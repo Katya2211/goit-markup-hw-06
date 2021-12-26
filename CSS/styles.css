@@ -438,6 +438,7 @@ img {
 }
 
 .address-container {
+  flex-grow: 1;
   margin-right: 70px;
 }
 
@@ -735,6 +736,7 @@ img {
 }
 
 .modal {
+  padding: 40px 40px;
   height: 582px;
   width: 528px;
   background-color: var(--additional-color);
@@ -748,7 +750,6 @@ img {
 }
 
 .form-title {
-  margin-top: 40px;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -758,13 +759,11 @@ img {
   color: var(--litle-text-color);
 }
 .data-form {
-  margin: 0 40px;
   display: block;
 }
 .send__button {
   display: flex;
   margin-top: 30px;
-  margin-bottom: 40px;
   justify-content: center;
 }
 .form-button {
@@ -818,7 +817,7 @@ img {
   position: relative;
   margin-bottom: 28px;
 }
-.data-form .form-item:not(:last-child) {
+.form-item:not(:last-child) {
   margin-bottom: 10px;
 }
 .form-item:checked {
@@ -880,8 +879,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 30px;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
